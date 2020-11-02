@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcom to Kokoa Talk</title>
+    <title>Settings - Screen Kokoa Talk</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
@@ -23,19 +23,19 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
-        </p>
+    <header class="screen_header">
     </header>
-    <!-- Todo: method Change to POST -->
-    <form id="login-form" action="friends.html" method="GET">
-        <input class="focus-yellow" name="username" type="text" placeholder="Email or phone number" required />
-        <input class="focus-yellow" name="email" type="password" placeholder="Password" required />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <main class="main-screen">
+        
+    </main>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"><span class="nav__notification notify-badge">1</span></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"><span class="notify-badge--span-with-icon"></span></i></a></li>
+        </ul>
+    </nav>
     <script src="https://kit.fontawesome.com/886bb1ee75.js" crossorigin="anonymous"></script>
 </body>
 </html>
